@@ -1,12 +1,10 @@
 import "./App.css";
+import MainPage from "./component/MainPage";
 
 function App() {
   return (
     <div className="App">
-      <div>
-        <h1>init </h1>
-        <h2>재우</h2>
-      </div>
+      <MainPage />
     </div>
   );
 }

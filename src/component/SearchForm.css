@@ -1,0 +1,51 @@
+.SearchForm {
+  position: relative;
+  bottom: -45px;
+  margin-top: -20px;
+  max-width: 770px;
+  display: inline-block;
+}
+
+.SearchForm .title {
+  font-size: 40px;
+}
+
+.SearchForm h1 {
+  font-size: inherit !important;
+  line-height: inherit !important;
+  font-weight: inherit !important;
+  margin: 0 !important;
+}
+
+.SearchForm p {
+  font-size: 17px;
+  line-height: 150%;
+  display: inline-block;
+  padding: 25px 0 85px;
+}
+
+.SearchForm .f-search {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0px 20px 36px -12px rgb(35 36 176 / 25%);
+  position: relative;
+  flex-wrap: nowrap;
+}
+
+.SearchForm .f-search input {
+  flex-grow: 1;
+  height: 83px;
+  border-color: transparent;
+}
+
+.SearchForm .f-search button {
+  width: 83px;
+  height: 83px;
+  background: transparent url(https://in-stories.online/img/ico-search.svg)
+    center center no-repeat;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}

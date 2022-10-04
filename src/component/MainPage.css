@@ -1,0 +1,17 @@
+.mainpage {
+  padding-top: 30px;
+  background: url(https://in-stories.online/img/bg.jpg) center bottom no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+  text-align: center;
+}
+header {
+  color: white;
+  padding-bottom: 30px;
+}
