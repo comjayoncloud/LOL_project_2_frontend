@@ -25,27 +25,36 @@
 }
 
 .SearchForm .f-search {
+  display: block;
+  margin-top: 0em;
+}
+
+.SearchForm .f-search .f-input {
+  display: flex;
   background-color: white;
   border-radius: 12px;
   box-shadow: 0px 20px 36px -12px rgb(35 36 176 / 25%);
   position: relative;
-  flex-wrap: nowrap;
+  justify-content: space-between;
 }
 
-.SearchForm .f-search input {
+.SearchForm .f-search .f-container input {
   flex-grow: 1;
   height: 83px;
   border-color: transparent;
+  border-radius: 12px;
+  color: #cac5cd;
+  padding: 0 20px;
+  flex-wrap: nowrap;
 }
 
-.SearchForm .f-search button {
+.SearchForm .f-search .f-container button {
   width: 83px;
   height: 83px;
+  cursor: pointer;
+
   background: transparent url(https://in-stories.online/img/ico-search.svg)
     center center no-repeat;
-}
-
-.flex {
-  display: flex;
-  flex-wrap: wrap;
+  border-radius: 10px;
+  border: 0;
 }
