@@ -8,7 +8,7 @@ export default function MainPage() {
           <div className="logo">
             <a href="http://localhost:3000">
               <img
-                src="https://in-stories.online/img/logo.svg"
+                src="https://poro.gg/images/logo/logo-porogg-w@2x.png"
                 alt="logo"
               ></img>
             </a>
